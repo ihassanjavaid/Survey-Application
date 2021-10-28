@@ -167,6 +167,9 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Styles\" />
+    <Folder Include="Views\AdminDashboard\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Survey\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
