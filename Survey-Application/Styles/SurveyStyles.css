@@ -1,4 +1,8 @@
-﻿.feedback {
+﻿body{
+    background-color: #63260d
+}
+
+.feedback {
     width: 100%;
     max-width: 780px;
     background: #fff;
@@ -131,7 +135,7 @@ span.scale-rating {
     }
 
     span.scale-rating label:hover {
-        background: #fddf8d;
+        background: #d29b6b;
     }
 
     span.scale-rating input[type=radio]:last-child {
@@ -141,7 +145,7 @@ span.scale-rating {
     span.scale-rating label input[type=radio]:checked ~ label {
         -webkit-appearance: none;
         margin: 0;
-        background: #fddf8d;
+        background: #d29b6b;
     }
 
     span.scale-rating label:before {

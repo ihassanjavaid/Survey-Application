@@ -1,0 +1,96 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+
+
+html {
+    background-color: #10151B;
+    background: url(https://www.nineteen80one.com/wp-content/uploads/2020/01/bmw-i8-studio-photography.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    margin: auto;
+}
+
+
+.box {
+    height: 300px;
+    width: 500px;
+    background: white;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.boxfather {
+    width: 100%;
+    position: absolute;
+}
+
+input[type=text] {
+    position: absolute;
+    right:160px;
+    text-align: center;
+    top: 210px;
+    border: 2px solid #10151B;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    left: 35%;
+    position: relative;
+    top: 200px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    color: #525252;
+    background: #E4E4E4;
+    transition: all .3s ease;
+    font-size: 19px;
+    font-family: montserrat;
+    border-radius: 5px;
+}
+.box h1 {
+    color: #000000;
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box h2 {
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #E4E4E4;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+﻿
+@model Survey_Application.Models.UserModel
+
+@{
+    ViewBag.Title = "Welcomepage";
+}
+
+
+<link href="~/Styles/WelcomePageStyle.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome!</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .section-whole {
+            width: 100%;
+            height: 100vh;
+            padding: 100px 0px;
+            background-image: url(https://www.nineteen80one.com/wp-content/uploads/2020/01/bmw-i8-studio-photography.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+
+        <div class="boxfather">
+            <div class="box">
+                <h1>WELCOME.</h1>
+                <h2>To start the survey, please enter your name and get started.</h2>
+             
+
+                <form method="post" name="Form1" action="GoToIndex">
+
+                         <input type="text" name="fname" value="" />
+
+                         @*<input type=button onClick="parent.location='/Survey/Index'"
+                                value='ENTER'>*@
+                         <input type="submit" value="Get Started!" />
+                    </form>
+
+              
+            </div>
+        </div>
+
+    </div>
+
+    <h3>
+        We hope you’re satisfied with our customer service
+        and our product!
+
+    </h3>
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
