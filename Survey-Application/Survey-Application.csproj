@@ -161,6 +161,11 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\SurveyScript.js" />
+    <Content Include="SQL Scripts\Create-Customers.sql" />
+    <Content Include="SQL Scripts\Create-Model.sql" />
+    <Content Include="SQL Scripts\Create-Questions.sql" />
+    <Content Include="SQL Scripts\Create-Surveys.sql" />
+    <Content Include="SQL Scripts\Create-Users.sql" />
     <Content Include="Styles\SurveyStyles.css" />
     <Content Include="Styles\ThankyoupageStyle.css" />
     <Content Include="Styles\WelcomePageStyle.css" />
